@@ -1,0 +1,220 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #3e4246;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px
+}
+
+.logo h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 3px 15px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.menu li a:hover{
+  color: #e4ac20;
+}
+
+.menu li a.active {
+  color: #e4ac20;
+}
+
+.menu li a i {
+  margin-right: 10px;
+}
+
+.setting{
+  margin-top: 129px;
+}
+
+.content {
+  margin-left: 230px;
+  margin-right: 10px;
+  padding: 4px 20px 20px 20px ;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2{
+  font-size: 30px;
+  color: #3e4246;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3e4246;
+}
+
+.user-info span {
+  margin: 0;
+  font-size: small;
+  color: #3e4246;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #6eb0f1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background-color: #3a6086;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  outline: #3e4246;
+  margin-top: 20px;
+
+  overflow: hidden;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); 
+}
+
+.data-table th, .data-table td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #8f8f8f;
+}
+
+.data-table th {
+  font-weight: bold;
+  background-color: #3e4246;
+  color: #fff;
+}
+
+/*.data-table td {
+  text-align: left;
+}*/
+
+.edit-button, .delete-button {
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.edit-button{
+  padding: 3px 5px;
+  color: #3e4246;
+}
+
+.edit-button:hover{
+  background-color: rgb(207, 207, 207, 0.5);
+}
+
+.delete-button{
+  padding: 3px 6px;
+  color: rgb(226, 42, 42);
+}
+
+.delete-button:hover{
+  background-color: rgb(207, 207, 207, 0.5);
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-container i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+#searchInput {
+  width: 85%;
+  padding: 8px 12px 8px 36px; /* kasih padding kiri buat ikon */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

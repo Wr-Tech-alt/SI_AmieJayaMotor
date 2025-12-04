@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(180, 180, 180, 0.5), rgba(70, 70, 70, 0.8)), url('pict/bg1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .form {
+    width: 400px; /* Sesuaikan lebar form sesuai kebutuhan Anda */
+    margin: 0 auto; /* Membuat form berada di tengah halaman */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(66, 66, 66, 0.9); /* Red color with 50% opacity */
+  }
+
+  .form h1{
+    margin-bottom: 30px;
+    color: #438dd6;
+  }
+  
+  .formcol {
+    margin-bottom: 20px;
+  }
+
+  .formcol label {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .formcol input {
+    width: calc(100% - 40px);
+    padding: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forgot {
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .forgot a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  
+  .forgot a:hover {
+    color: #438dd6;
+  }
+  
+  .masuk {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .masuk a{
+    color: #3e4246;
+    font-size: 15px;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .masuk a:hover{
+    background-color: #a0a0a0;
+  }
+  
+  .signup {
+    margin-top: 10px;
+  }
+
+  .signup a {
+    text-decoration: none;
+    color: #438dd6;
+    font-weight: bold;
+  }
+
+  .signup p {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .container img {
+    width: 100px;
+
+}
+  
