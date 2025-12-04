@@ -39,10 +39,14 @@ Project ini dibangun menggunakan **PHP Native** dan **MySQL**, sehingga ringan, 
 ## 📂 Project Structure
 SIAmie/
 │── index.php # Halaman utama
+
 │── koneksi.php # Koneksi database
+
 │── signup.php # Register user
 │── index.css # Styling halaman utama
+
 │── signup.css # Styling signup
+
 │
 ├── dashboard/ # Dashboard kasir/admin
 ├── produk/ # CRUD produk
