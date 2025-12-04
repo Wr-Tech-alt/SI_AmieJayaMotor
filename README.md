@@ -43,16 +43,24 @@ SIAmie/
 │── koneksi.php # Koneksi database
 
 │── signup.php # Register user
+
 │── index.css # Styling halaman utama
 
 │── signup.css # Styling signup
 
 │
 ├── dashboard/ # Dashboard kasir/admin
+
 ├── produk/ # CRUD produk
+
 ├── customer/ # CRUD pelanggan
+
 ├── kendaraan/ # Data kendaraan pelanggan
+
 ├── kasir/ # Modul kasir
+
 ├── notapenjualan/ # Input & cetak nota
+
 ├── detailpart/ # Detail part & relasi
+
 └── pict/ # Asset gambar
